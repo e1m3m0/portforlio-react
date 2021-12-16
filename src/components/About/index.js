@@ -4,7 +4,7 @@ import profilePicture from "../../assets/images/gmateo.jpg";
 function About() {
   return (
     <div>
-      <h1>About me</h1>
+      <h1 id='about'>About me</h1>
       <img
         src={profilePicture}
         alt="Guillermo Mateo, Full Stack Web Developer"
